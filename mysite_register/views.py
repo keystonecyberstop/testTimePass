@@ -14,11 +14,11 @@ class HomeView(ListView):
     #     print('>>>>>>>>>>>')
     #     return context
     
-def home(request):
-    """
-    docstring
-    """
-    context = {
-        'entry_list' : Entry.objects.all()
-    }
-    return render(request, 'entries/index.html', context=context)
+# def home(request):
+#     """
+#     docstring
+#     """
+#     context = {
+#         'entry_list' : Entry.objects.all()
+#     }
+#     return render(request, 'entries/index.html', context=context)
